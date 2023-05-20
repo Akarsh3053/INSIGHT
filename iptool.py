@@ -9,7 +9,7 @@ wait = "["+Fore.MAGENTA+"*"+Fore.RESET+"]"
 
 
 def ipFinder():
-	ip = input(" Adresse IP: ")
+	ip = input(" Enter the IP Address : ")
 	print("\n"+wait+" Locating '%s'..." % (ip))
 
 	TABLE_DATA = []
