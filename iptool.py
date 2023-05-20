@@ -21,7 +21,7 @@ def ipFinder():
 	status = values['status']
 
 	if status != "success":
-		print(warning+" Adresse IP invalide.")
+		print(warning+" Invalid IP Address.")
 
 	else:
 		infos = ("IP", ip)
