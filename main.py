@@ -1,4 +1,5 @@
 import os
+import IP
 
 
 def draw_logo():
@@ -11,4 +12,5 @@ def draw_logo():
 
 os.system('color 02')
 draw_logo()
-input()
+
+

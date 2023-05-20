@@ -46,5 +46,3 @@ def ipFinder():
 
 		table = SingleTable(TABLE_DATA, ip)
 		print("\n"+table.table)
-
-ipFinder()
