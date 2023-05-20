@@ -1,5 +1,5 @@
 import os
-import IP
+import iptool
 
 
 def draw_logo():
@@ -12,5 +12,11 @@ def draw_logo():
 
 os.system('color 02')
 draw_logo()
+
+print("1. IP Lookup")
+x = int(input('Enter your Choice : '))
+
+if x == 1:
+    iptool.ipFinder()
 
 
