@@ -38,7 +38,7 @@ def ipFinder():
 		TABLE_DATA.append(infos)
 		infos = ("Postal Code", values['zip'])
 		TABLE_DATA.append(infos)
-		localisation = str(values['lat'])+', '+str(values['lon'])
+		localisation = str(values['lat'])+','+str(values['lon'])
 		infos = ("Coordinates", localisation)
 		TABLE_DATA.append(infos)
 		infos = ("Maps", "https://www.google.fr/maps?q="+localisation)
