@@ -5,9 +5,10 @@ import pandas as pd
 bot = instaloader.Instaloader()
 
 # Loading a profile from an Instagram handle
-def get_insta(username):
-    profile = instaloader.Profile.from_username(bot.context, username)
-    print("Username: ", profile.username)
+def get_insta():
+    user = input("\n Enter Instagram Username : ")
+    profile = instaloader.Profile.from_username(bot.context, user)
+    print("\n\n\nUsername: ", profile.username)
     print("User ID: ", profile.userid)
     print("Number of Posts: ", profile.mediacount)
     print("Followers Count: ", profile.followers)
