@@ -6,4 +6,4 @@ A simple OSINT tool for profiling and foot printing.
 * IP Address Lookup
 * Instagram Lookup
 
-#### More features are on their way... Stay Tuned
+#### Soon updating interface and tool list
